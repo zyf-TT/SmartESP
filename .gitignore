@@ -1,0 +1,38 @@
+# 忽略构建文件夹
+/build/
+
+# 忽略 IDE 配置文件
+.vscode/
+.idea/
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略自动生成的文件
+*.elf
+*.bin
+*.map
+*.hex
+
+# 忽略 CMake 配置文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+CMakeLists.txt.user
+
+# 忽略其他 ESP32 相关生成的文件
+*.d
+*.o
+*.a
+*.so
+
+# 忽略 NVS 文件（如果使用了 NVS Flash）
+nvs/
+
+# 忽略用户自定义的配置文件
+sdkconfig
+sdkconfig.old
